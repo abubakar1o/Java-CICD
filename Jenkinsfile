@@ -7,6 +7,9 @@ pipeline {
         SERVER_IP = "74.235.239.120"
         SERVER_PORT = "80"
     }
+    tools{
+        maven 'MAVEN'
+    }
     
     stages {
         stage('Checkout') {
